@@ -1,0 +1,47 @@
+#contactHeadDiv{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #ceeafd;
+    border-radius: 2rem;
+}
+
+#contactSubmitButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#colImage{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+
+#firstName, #lastName, #company, #inputEmail, #inputPhone{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+}
+
+#messagebox{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border: solid black 1px;
+    padding: 3px 10px;
+}
+
+#contactDivCol1, #contactDivCol2{
+    padding: 2rem;
+}
+
