@@ -7,6 +7,7 @@
     justify-content: center;
     background-color: #ceeafd;
     border-radius: 2rem;
+    padding-bottom: 1rem;
 }
 
 #contactSubmitButtonDiv, #cardButtonDiv{
@@ -77,13 +78,42 @@ h5, p{
     padding: 1rem;
 }
 
-#reviewsHeading{
+#reviewsHeading, #galleryHeading{
     text-align: center;
     font-family: cursive;
     padding: 1rem;
 }
 
-#mainReviewDiv{
+#mainReviewDiv, #mainGalleryDiv{
     background-color: #ceeafd;
     padding-bottom: 2rem;
+}
+
+#galleryImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+#carouselImageDiv{
+    width: 50rem;
+    padding: 2rem;
+}
+
+#carouselImage{
+    border-radius: 5rem;
+}
+
+#indexParagraph{
+    text-align: left;
+}
+
+#footerDiv{
+    padding: 1rem;
+}
+
+#footerLink{
+    text-decoration: none;
+    color: black;
 }
