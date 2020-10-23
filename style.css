@@ -41,11 +41,11 @@
     padding: 3px 10px;
 }
 
-#contactDivCol1, #contactDivCol2{
+#contactDivCol1, #contactDivCol2, #instructorsHeading{
     padding: 2rem;
 }
 
-#teamIntroDiv{
+#teamIntroDiv, #aboutCol2Div{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -57,8 +57,33 @@
 
 h5, p{
     text-align: center;
+    font-family: cursive;
 }
 
 #cardContainerDiv{
+    padding-bottom: 2rem;
+}
+
+#aboutContainerDiv, #aboutHeading2, #reviewCardConatiner{
+    padding-top: 2rem;
+}
+
+#aboutHeading, #aboutHeading2{
+    text-align: center;
+    font-family: cursive;
+}
+
+#featuresGridDiv{
+    padding: 1rem;
+}
+
+#reviewsHeading{
+    text-align: center;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+#mainReviewDiv{
+    background-color: #ceeafd;
     padding-bottom: 2rem;
 }
